@@ -1,0 +1,447 @@
+body {
+    background-color:#000;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    }
+
+    main {
+       
+    }
+
+    .container {
+    width:1300px;
+    margin:auto;
+    }
+
+    section #index__page{
+        clear:both;
+        overflow: hidden;
+        text-align:center;
+    }
+
+
+    h1 {
+        padding-top: auto;
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        text-transform: uppercase;
+        font-size:100px;
+        letter-spacing: 25px;
+        word-spacing: 50px;
+        margin: auto;
+    }
+
+    body#index__page h2 {
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-variant:small-caps;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        margin: 20px 20px;
+
+    }
+
+    body#index__page h3 {
+        font-size: 28px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    body#index__page h4 {
+        font-size: 35px;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px;
+        margin: auto;
+    }
+
+    body#index__page p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        white-space: pre-line; /* collapse WS, preserve LB */
+
+    }
+    a {
+        list-style: none;
+        text-decoration: none;
+        color:#fff;
+        font-size: 20px;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #0C1261;
+    }
+
+
+    /* NAV */ 
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;   
+    padding-bottom: 0;
+    background-color: #000;
+}
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    nav ul li {
+        display:inline-block;
+        padding: 7px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+
+    }   
+
+
+    /* NEWS */ 
+
+div.news__article h3 {
+    margin: 10px 10px;
+}
+
+div.news__article p {
+    margin: 10px;
+}
+
+    .news__wrapper {
+        display: flex;
+    }
+
+    .news__article {
+        max-width: 500px;
+        margin-right: 20px;
+    }
+
+    .read__more {
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+    }
+
+    .read__more a {
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+
+    /* MEDIA */ 
+
+.media-news {
+    text-align: center;
+}
+
+.tours {
+    text-align: right;
+}
+
+.photo1, .photo2 {
+    width: 500px;
+    display: inline-block;
+}
+
+.photo-1, .photo-2 {
+    display: inline-block;
+}
+
+    /* TOURS */ 
+
+table.table__index { 
+    margin-top: 25px;
+    table-layout: fixed;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin: 0px auto;
+    background: linear-gradient(#060921, #080D2E, #0D1447)
+}
+
+h3.upcoming__tours {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+}
+
+
+table.table__index td {
+    padding: 10px;
+    border: 1px solid #fff;
+
+}
+
+ /* FOOTER */
+
+        footer {
+            width: 100%;
+            margin-top: 50px;
+            border-top: 1px solid grey;
+        }
+
+            form {
+            font-family: Arial;
+            width: 25%;
+            margin: 0 auto;
+            width: fit-content;
+            padding: 15px;
+        }
+
+            form h3 {
+                text-transform: uppercase;
+                font-size: 25px;
+                color: #383276;
+                padding: 25px;
+
+            }
+
+            form p {
+                font-size: 15px;
+            }
+
+            input[type=text], input[type=submit] {
+                width: 80%;
+                padding: 12px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+
+            input[type=checkbox] {
+                margin-top: 16px;
+            }
+
+            input[type=submit] {
+                background-color: #7570A6;
+                color: white;
+                border: none;
+            }
+
+            input[type=submit]:hover {
+                opacity: 0.8;
+            }
+
+            footer h3 {
+                padding: 10px;
+                margin-bottom: 0px;
+            }
+
+        footer > nav {
+            display:flex;
+            flex-direction:row;
+            justify-content: space-between;
+        }
+
+
+        footer nav {
+            padding: 20px;
+                        border-top: 1px solid grey;
+
+        }
+
+        footer nav ul {
+        display:flex;
+
+        }
+
+            footer a {
+                font-size: 16px;
+            }
+
+
+ /** css en pagina news **/
+
+    body#news__page h2 {
+        font-size: 70px;
+        font-weight: bold;
+        letter-spacing: 8px;
+        text-align: center;
+        padding: 20px 0px;
+        font-family: 'Work Sans', sans-serif;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    body#news__page h3 {
+        padding: 20px 0px;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    body#news__page p {
+        font-size: 16px;
+        padding: 20px 0px;
+        margin: 0;
+        white-space: pre-line;
+    }
+
+    body#news__page img {
+        max-width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+/** css en pagina history **/ 
+
+    body#history__page h2 {
+        font-size: 70px;
+        font-weight: bold;
+        letter-spacing: 8px;
+        text-align: center;
+        padding: 30px 0px;
+        font-family: 'Work Sans', sans-serif;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    body#history__page h3 {
+        padding: 20px 0px;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    body#history__page p {
+        font-size: 16px;
+        margin: 0;
+        white-space: pre-line;
+    }
+
+    .aside-history-right, aside {
+        float: right;
+    }
+
+    .aside-history-left, aside {
+        float: left;
+    }
+
+     body#history__page img {
+        padding: 10px;
+        max-height: 50%;
+        max-width: auto;
+    }
+
+/** css en pagina media **/
+    
+    body#media__page iframe {
+            padding: 22px;
+    }
+
+   body#media__page h2 {
+        font-size: 70px;
+        font-weight: bold;
+        letter-spacing: 8px;
+        text-align: center;
+        padding: 20px 0px;
+        font-family: 'Work Sans', sans-serif;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    body#media__page h3 {
+        padding: 10px 0px;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    body#media__page p {
+        font-size: 16px;
+        margin: 0;
+        white-space: pre-line;
+    }
+
+    .photos__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        body#media__page img {
+            padding: 20px;
+        }
+
+    .media__videos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+/** css en pagina discografia **/
+    
+    body#discography__page h2 {
+        font-size: 70px;
+        font-weight: bold;
+        letter-spacing: 8px;
+        text-align: center;
+        padding: 20px 0px;
+        font-family: 'Work Sans', sans-serif;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+        body#discography__page ul {
+        list-style: none;
+        }
+
+
+        table.discography__table {
+            border: 1px solid;
+            margin: 0 auto;
+            background-image: url(imagenes/backgroundimage.jpg);
+        }
+
+        table.discography__table td, tr {
+            border: 1px solid;
+            vertical-align: top;
+            padding: 10px;
+            color: #fff;
+        }
+
+/** css en pagina tours **/
+    
+     body#tour__page h2 {
+        font-size: 70px;
+        font-weight: bold;
+        letter-spacing: 8px;
+        text-align: center;
+        padding: 20px 0px;
+        font-family: 'Work Sans', sans-serif;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .bsbtours-img {
+            text-align: center;
+            width: 100%;
+        }
+
+    body#tour__page table {
+        margin-top: 25px;
+        table-layout: fixed;
+        padding: auto;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        margin: 0px auto;
+        background: linear-gradient(#060921, #080D2E, #0D1447)
+    }
+
+
+    body#tour__page th {
+        text-transform: uppercase;
+    }
+
+    body#tour__page table tr a {
+        font-size: 16px;
+    }
+
+
+
+
